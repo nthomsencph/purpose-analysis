@@ -1,0 +1,5 @@
+.env
+.venv
+poetry.lock
+data/*.csv
+data/*.xlsx

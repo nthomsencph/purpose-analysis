@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "purpose"
+version = "0.1.0"
+description = ""
+authors = ["nicolai <nicolaibthomsen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.345"
+openai = "^1.3.7"
+ipykernel = "^6.27.1"
+pandas = "^2.1.3"
+openpyxl = "^3.1.2"
+tqdm = "^4.66.1"
+ipywidgets = "^8.1.1"
+jupyter = "^1.0.0"
+plotly = "^5.18.0"
+python-decouple = "^3.8"
+scikit-learn = "^1.3.2"
+pre-commit = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
